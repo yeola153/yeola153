@@ -1,0 +1,33 @@
+echo "# 5-of-error" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/yeola153/5-of-error.git
+git push -u origin main
+
+HideAndSeek.java:4: error: '{' expected
+try.printLevel.log("out of mine") {
+   ^
+HideAndSeek.java:4: error: ';' expected
+try.printLevel.log("out of mine") {
+                                 ^
+HideAndSeek.java:5: error: '{' expected
+try.printLevel.log('fighting ("of fight")');
+   ^
+HideAndSeek.java:5: error: unclosed character literal
+try.printLevel.log('fighting ("of fight")');
+                   ^
+HideAndSeek.java:5: error: unclosed character literal
+try.printLevel.log('fighting ("of fight")');
+                                         ^
+HideAndSeek.java:5: error: 'try' without 'catch', 'finally' or resource declarations
+try.printLevel.log('fighting ("of fight")');
+^
+HideAndSeek.java:4: error: 'try' without 'catch', 'finally' or resource declarations
+try.printLevel.log("out of mine") {
+^
+HideAndSeek.java:8: error: reached end of file while parsing
+}
+ ^
+8 errors
